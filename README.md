@@ -1,16 +1,62 @@
-# project_x
+# Flutter Describe App
 
-A new Flutter project.
+A surrounding description app which describes the scene using an on-device LLM.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📝 Description
 
-A few resources to get you started if this is your first Flutter project:
+This app is under development and aims to help a visually impaired person get a description of their surroundings through voice output. The app can run offline and provide the necessary feedback.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+* **Offline Surrounding Description:** Provides scene descriptions without needing an internet connection.
+* **Accessible UI:** The user interface is designed to be friendly for visually impaired users.
+
+---
+
+## 🚀 Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing.
+
+### Prerequisites
+
+* **Flutter SDK:** [Link to Flutter installation guide](https://flutter.dev/docs/get-started/install)
+
+### Installation
+
+1.  **Clone the repo**
+    ```sh
+    git clone [https://github.com/Swaraj586/flutter_describe_app.git](https://github.com/Swaraj586/flutter_describe_app.git)
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd flutter_describe_app
+    ```
+3.  **Install dependencies**
+    ```sh
+    flutter pub get
+    ```
+4.  **Run the app**
+    ```sh
+    flutter run
+    ```
+    > **Note:** Make sure you have a physical device connected with USB debugging enabled. Emulators did not work in my case.
+
+---
+
+## 🛠️ Troubleshooting
+
+If you encounter any build errors or unexpected issues, you can force a clean rebuild of the project by running the following commands in your terminal:
+
+```sh
+# Clean the project's build cache
+flutter clean
+
+# Get all dependencies again
+flutter pub get
+
+# Run the project
+flutter run
