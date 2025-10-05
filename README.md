@@ -60,6 +60,7 @@ flutter pub get
 
 # Run the project
 flutter run
+```
 
 ## ⚙️ Dependencies & Configuration (`pubspec.yaml`)
 
