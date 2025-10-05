@@ -110,6 +110,7 @@ yourNewModelName(
   maxNumImages: 1,
   supportsFunctionCalls: true,
 ),
+```
 
 ## 📥 Model Download Screen (`home.dart`)
 
